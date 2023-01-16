@@ -250,7 +250,6 @@ document.getElementById("locations").addEventListener("click", locationsView)
 document.getElementById("vehicles").addEventListener("click", vehiclesView)
 document.getElementById("dirProds").addEventListener("click", dirProdsView)
 
-
 //Ordenar películas
 const orderFilms = (a) =>{
   const orderSelected = a.target.value;
@@ -308,7 +307,8 @@ const director = document.getElementById("director")
 director.addEventListener("change", () => {    
   const directorSelected = director.value;
   const directorFiltered = filterDirector(dataGhibli, directorSelected);
-  displayDirecProds(directorFiltered, ".dirProdContainer")
+  displayDirecProds(directorFiltered, ".dirProdContainer");
+  setTimeout(()=> director.selectedIndex=0,1000);
 });
 
 //Filtro productor
@@ -317,6 +317,7 @@ producer.addEventListener("change", () => {
   const producerSelected = producer.value;
   const producerFiltered = filterProducer(dataGhibli, producerSelected);
   displayDirecProds(producerFiltered, ".dirProdContainer")
+  setTimeout(()=> producer.selectedIndex=0,1000);
 });
 
 //Filtro por título
