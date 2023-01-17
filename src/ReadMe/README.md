@@ -13,10 +13,9 @@
 
 
 ## 1. Introducción
-¡¿Fanaticx de las películas de Studio Ghibli?!
 
-- descripción de Studio Ghibli, hablar de las producciones,
-premios, paisajes, banda sonora...
+- El estudio ghibli se ha caracterizado por su gran trayectoria; Fue fundado el 15 de junio de 1985 por los directores Hayao Miyazaki e Isao Takahata y el productor Toshio Suzuki, después del éxito de la película de anime de Topcraft Nausicaä del Valle del Viento (1984). Studio Ghibli también ha colaborado con estudios de videojuegos en el desarrollo visual de varios videojuegos.  En el 2003 salio una de sus mejores obras el viaje de chihiro el cual gano un premio oscar a mejor pelicula animada.  Sus escenarios se ambientan en paisajes de suiza tambien de japon. En este proyecto podras ver una pequeña parte de la escencia del estudio ghibli el cual queriamos plasmar hacia nuestros visitantes, cada seccion esta hecha con mucha dediacion y cariño para poder una experiencia facil y dinamica de usar. Aqui podras encontrar sobre los datos mas relevantes de sus obras, autores, directores y personajes que han sido alguno de los mas grandes exitos y los cuales llenan de nostalgia cada corazon.
+
 
 ## 2. Descripción
 Esta página especializada en el mundo ghibli te permitirá disponer de los datos
