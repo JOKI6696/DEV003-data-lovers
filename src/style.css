@@ -394,7 +394,8 @@ ul:not(.menu) {
 /*       SECTION HOME AND IMG  page */
 #main-content{
   display: flex;
-  margin: 0 auto;
+  margin: 0;
+  width: 100%;
   /*max-width: var(--page-width);*/
 }
 
@@ -412,45 +413,51 @@ ul:not(.menu) {
 }
 
 #main-content p{
-  font-size: 1rem;
+  font-size: 2rem;
+  display: flex;
 }
 
 .page-section {
   display: flex;
+  width: 100%;
   flex-direction: column; /* arrange items horizontally */
   margin: calc(var(--space) * 3) 0;
   padding: 0 5%;
   align-self: center;
-  
+  margin-bottom: 2rem;
 }
 
-#image-section {
+.page-section-home {
+  display: flex;
+  width: 50%;
+  height: 80%;
+  flex-direction: column; /* arrange items horizontally */
+  margin: calc(var(--space) * 3) 0;
+  padding: 0 5%;
+  align-self: center;
+  margin-bottom: 15rem;
+}
+section.image-section {
   background-image: url(./media/Miyazaki-Hayao-2008_1-PhotoRoom.png-PhotoRoom.png);
-  width: 100%;
+  width:min-content;
+  width: 50%;
   margin-top: calc(var(--space) * 1.5);
-  padding: 10px;
+  padding: 5px;
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: calc(100% - 20px) 0; /* add a 20px margin to the right side of the background image */
-}
-
-
-@media (min-width: 992px){
-  #image-section {
-    background-position: calc(100% - 110px) 0; /* double the size of the margin on desktop devices */
-  }
+  margin-left: -15rem;
 }
 
 .page-section > * {
   flex: 1; /* make all child elements equal in size */
 }
 
-
 .section-title {
   outline: none;
   display: flex;
   justify-content: center; /* right-justify the text */
 }
+
 .section-title:before {
   content: "";
   display: block;
@@ -729,12 +736,6 @@ a{
   box-sizing: border-box;
   transition: 0.5s;
   font-size: 2rem;
-  }
-}
-
-@media (max-width: 600px){
-  #image-section {
-   display: none;
   }
 }
 
