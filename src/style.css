@@ -440,7 +440,7 @@ ul:not(.menu) {
 section.image-section {
   background-image: url(./media/Miyazaki-Hayao-2008_1-PhotoRoom.png-PhotoRoom.png);
   width:min-content;
-  width: 50%;
+  width: 60%;
   margin-top: calc(var(--space) * 1.5);
   padding: 5px;
   background-repeat: no-repeat;
